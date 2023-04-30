@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 150px 175px 50px;
+    transition: all ease 0.2s;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.cardContainer {
+    width: 70%;
+}
+
+.payments {
+    width: 27%;
+    /* background-color: #fff; */
+    /* border: 1px solid silver; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.payments p {
+    color: rgb(61, 61, 61);
+    margin: 20px 20px 10px;
+}
+
+
+.payments p span {
+    color: #d39b00;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px 20px 10px;
+}
+
+.checkout {
+    display: inline;
+    background-color: #34a853;
+    padding: 5px 13px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all ease 0.2s;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.checkout:hover{
+    background-color: #4fff7e;
+}
+
+.clear {
+    background-color: #ee351c;
+    color: #fff;
+    padding: 5px 13px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 0.2s;
+}
+
+.clear:hover {
+    background-color: #ff614d;
+}
+
+.complete h3 {
+    color: #167d32;
+    margin: 30px 0 50px;
+    font-size: 1.2rem;
+}
+
+.complete a {
+    background-color: #dda200;
+    color: #fff;
+    display: inline;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    width: 90px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.complete a:hover {
+    background-color: #c9a542;
+}
+
+.cancel h3 {
+        color: #858d11;
+        margin: 30px 0 50px;
+        font-size: 1.2rem;
+        padding: 10px;
+}
+
+.cancel a {
+    background-color: #c25c17;
+    color: #fff;
+    display: inline;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    width: 90px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+@media(max-width:1000px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media(max-width:756px) {
+    .container {
+        flex-direction: column-reverse;
+        margin: 120px 80px 50px;
+        align-items: center;
+    }
+    .cartContainer{
+        width: 100%;
+    }
+    .payments {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:496px) {
+    .container {
+        padding: 5px;
+    }
+    .buttonContainer button{
+        font-size: 0.8rem;
+    }
+}

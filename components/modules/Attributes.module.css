@@ -1,0 +1,38 @@
+.container {
+    margin-top: 120px;
+}
+
+.container h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 3px solid #daad33;
+    max-width: fit-content;
+    margin: 24px 0;
+}   
+
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subContainer div {
+    width: 150px;
+    margin-top: 20px;
+    padding: 25px 20px 20px;
+    box-shadow: rgba(158, 157, 154, 0.123) 0px 4px 16px,
+    rgba(0, 0, 0, 0.05) 0px 8px 32px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.subContainer p {
+    margin-top : 20px;
+    font-weight: 600;
+}
+
+@media(max-width: 900px)  {
+    .subContainer {
+        flex-wrap: wrap;
+    }
+}

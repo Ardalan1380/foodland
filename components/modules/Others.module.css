@@ -1,0 +1,72 @@
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    width:  270px;
+}
+
+.productImage {
+    height: 16em;
+    object-fit: cover;
+}
+
+
+.food {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.price {
+    color: rgb(51, 45, 9);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.discount {
+    color: #ed4133;
+}
+
+.badge {
+    background-color: #ed4133;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    color: #fff;
+    left: 0;
+    padding: 8px;
+    border: 4px solid wheat;
+ }
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.details button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 3px;
+    background-color: #d39b00;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.2s ease-in all;
+}
+
+.details button:hover {
+    background-color: #dba81b;
+}
+
+.details a {
+    background-color: #e6dcc0;
+    font-size: 1.2rem;
+    padding: 3px;
+    transition: 0.2s all ease-in;
+    background-color: #eedaa3;
+}
+
+.details a:hover {
+    background-color: #f7eac2;
+}

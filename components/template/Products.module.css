@@ -1,0 +1,35 @@
+.container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.container h1 {
+    margin-bottom: 50px;
+    border-bottom: 3px solid #d39b00;
+    width: fit-content;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.subContainer {
+    margin-top: 80px;
+    max-width: 1500px;
+}
+.subContainer h3 {
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.subContainer div{
+    margin: 20px 30px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:1000px) {
+    .container {
+        padding: 10px;
+    }
+}

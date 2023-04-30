@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #f0e6cc;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    margin-top: 110px;
+    /* border: 2px solid; */
+    margin-left: 50px;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 40px;
+}
+
+.formContainer {
+    border: 1px solid silver;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.header {
+    text-align: right;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    color: #e28e0f;    
+    margin-top: 100px;
+}
+
+.formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+.formField label {
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #130f0b;
+}
+
+.formInput {
+    width: 360px;
+    height: 35px;
+    border: 0.5px solid silver;
+    padding: 0 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.unCompleted {
+    width: 300px;
+    height: 30px;
+    border: 1px solid silver;
+    border-bottom: 1px solid red;
+    padding: 0 10px;
+    transition: all 0.2s ease-in;
+}
+
+.formInput:focus,
+.unCompleted:focus {
+    outline: none;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid blue;
+}
+
+.formField span {
+    height: 10px;
+    text-align: right;
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 0.9rem;
+    color: red;
+    padding: 2px 3px;
+    border-radius: 10px;
+    background-color: rgba(225, 0, 0, 0.175);
+}
+
+.checkBoxContainer {
+    display: flex;
+    font-size: 0.85rem;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+}
+
+
+.formButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formButtons button {
+    background: #e28e0f;
+    padding: 10px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.formButtons a {
+    background-color: #e28e0f;
+    padding: 10px 10px;
+    color: #f0e6cc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+.checkBoxContainer input {
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+    border: solid 1px #e28e0f;
+    border-radius: 5px;
+}

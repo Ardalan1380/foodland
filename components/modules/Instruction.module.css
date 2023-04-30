@@ -1,0 +1,36 @@
+.container {
+    margin-bottom: 100px;
+}
+
+.container h3 {
+    border-bottom: 3px solid #d39b00;
+    width: fit-content;
+    font-size: 1.5rem;
+    margin: 24px 0;
+}
+
+.container ul {
+    padding: 0;
+}
+
+.container li {
+    list-style:decimal;
+    line-height: 30px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 18px 0;
+}
+.container li:nth-last-child(1) {
+    color: red;
+    text-align: center;
+    list-style: none;
+    font-size: 1.6rem;
+    padding-top: 30px;
+}
+
+@media(max-width: 900px) {
+    .container {
+        padding: 40px;
+    }
+}
+
