@@ -36,3 +36,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media(max-width:496px) {
+    .container h3 {
+        padding: 10px;
+    }
+}

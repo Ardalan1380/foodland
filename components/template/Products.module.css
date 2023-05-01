@@ -33,3 +33,9 @@
         padding: 10px;
     }
 }
+
+@media(max-width:496px) {
+    .subContainer div {
+        margin: 10px 10px;
+    }
+}

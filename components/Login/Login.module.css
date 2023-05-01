@@ -128,12 +128,34 @@
     font-size: 1.2rem;
 }
 
-
-
 .checkBoxContainer input {
     margin-right: 20px;
     width: 18px;
     height: 18px;
     border: solid 1px #e28e0f;
     border-radius: 5px;
+}
+
+@media(max-width:496px) {
+    .container {
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .formContainer {
+        width: 340px;
+    }
+    
+    .logo img {
+        width: 70px;
+        margin-top: -30px;
+    }
+
+    .unCompleted {
+        width: fit-content;
+    }
+
+    .formInput {
+        width: fit-content;
+    }
+
 }

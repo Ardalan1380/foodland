@@ -85,6 +85,8 @@
 @media (max-width: 496px) {
     .container {
         display: flex;
+        padding: 10px;
+        margin-top: 5px;
     }
     .right h2{
         font-size: 1.5rem;
@@ -94,7 +96,7 @@
         font-weight: 500;
     }
     .right span {
-        font-size: 1.rem;
+        font-size: 1rem;
     }
     .left img{
         width: 190px;

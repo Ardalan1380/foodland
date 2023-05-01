@@ -87,8 +87,9 @@
     position: absolute;
     margin: -4px -2px;
     width: 100px;
-    height: 150px;
+    height: 190px;
     background-color: #bd7a15;
+    color: inherit;
     color: #ffffff;
     border-radius: 10px;
     align-items: center;

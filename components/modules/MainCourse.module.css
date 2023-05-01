@@ -70,3 +70,17 @@
 .details a:hover {
     background-color: #f7eac2;
 }
+
+@media (max-width:496px) {
+    .container {
+        width: 200px;
+        padding: 10px;
+    }
+    .details button {
+        font-size: 1.06rem;
+        margin-right: -30px;
+    }
+    .details span {
+        margin-left: 40px;
+    }
+}

@@ -67,10 +67,10 @@ const Layout = ({children}) => {
                 <div className={styles.media}>
                     <ul>
                         <li>
-                            <Link href='t.me/Ardalan_barzanji'><Image src='/image/telegram.svg' width={30} height={40} alt="telegram"/></Link>
+                            <Link href='https://www.t.me/Ardalan_barzanji'><Image src='/image/telegram.svg' width={30} height={40} alt="telegram"/></Link>
                         </li>
                         <li>
-                            <Link href='/'><Image src='/image/whatsapp.svg' width={30} height={40} alt="phone" /></Link>
+                            <Link href='https://wa.me/+989034710891'><Image src='/image/whatsapp.svg' width={30} height={40} alt="phone" /></Link>
                         </li>
                         <li>
                             <Link href="https://www.instagram.com/ardalan.barzanji/"><Image src='/image/instagram.svg' alt="instagram" width={30} height={40} /></Link>

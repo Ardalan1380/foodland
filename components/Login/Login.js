@@ -9,8 +9,17 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 
-const SignUp = () => {
+const Login = () => {
     const router = useRouter();
+
+    const style = {
+        width: "250px",
+        height : "auto",
+        "@media(max-width:496px)": {
+            color : "red",
+            width: "20px"
+        } 
+    }
     
     const [data , setData] =useState({  
         email : '',
@@ -90,9 +99,11 @@ const SignUp = () => {
                 <Link href='/SignUp'>ثبت نام</Link>
             </div>
            </form>
-           <ToastContainer autoClose={3000} />
+           <ToastContainer 
+           style={style}
+            autoClose={3000} />
         </div>
     );
 };
 
-export default SignUp;
+export default Login;

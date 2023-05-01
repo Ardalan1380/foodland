@@ -47,7 +47,7 @@ const Others = (props) => {
                     }
                     {
                         quantityCount (state , props.id) > 1 && <button onClick={() => dispatch({type:"DECREASE" , payload:props})}>
-                            --
+                            -
                             </button>
                     }
                     {

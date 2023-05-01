@@ -10,6 +10,15 @@ import { useRouter } from 'next/router';
 
 
 const SignUp = () => {
+
+    const style = {
+        width: "250px",
+        height : "auto",
+        "@media(max-width:496px)": {
+            color : "red",
+            width: "20px"
+        } 
+    }
     
     const router = useRouter();
     
@@ -109,8 +118,12 @@ const SignUp = () => {
                 <Link href='/Login'>ورود</Link>
             </div>
            </form>
+           <div className={styles.toast}> 
            <ToastContainer 
-           autoClose = {3000}/>
+           autoClose = {3000} 
+           style={style}
+            />
+           </div>
         </div>
     );
 };
