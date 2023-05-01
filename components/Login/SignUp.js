@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from "./SignUp.module.css"
 import Link from 'next/link';
 import { ToastContainer } from 'react-toastify';
@@ -35,17 +35,14 @@ const SignUp = () => {
 
     useEffect(() =>{
         setErrors(validate(data, "signUp" ))
-        console.log(errors)
     } , [data])
 
     const channgeHandler = e => {
-        // console.log(e.target.checked);
         if(e.target.name === "isAccepted") {
             setData({...data , [e.target.name] : e.target.checked})
         }else {
             setData({...data , [e.target.name] : e.target.value})
         }
-        console.log(data)
     }
 
 
@@ -56,7 +53,6 @@ const SignUp = () => {
     const submitHandler =  (e) =>  {
         e.preventDefault();
         if(!Object.keys(errors).length) {
-            // console.log(data);
             notify("ثبت نام شما با موفقیت انجام شد", 'success');
             setTimeout(() => {
                 router.push("/")

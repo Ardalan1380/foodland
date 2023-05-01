@@ -3,7 +3,6 @@ import React from 'react';
 import DetailsPage from '../../../components/template/DetailsPage';
 
 const Details = ({data}) => {
-    console.log(data)
     const router = useRouter();
 
     return ( 

@@ -15,7 +15,6 @@ import React, {useReducer ,createContext} from 'react';
     }
 
     const cartReducer = (state , action) => {
-        console.log(state)
         switch(action.type) {
             case 'ADD_ITEM' :
                 if(!state.selectedItems.find(item => item.id === action.payload.id)) {

@@ -10,7 +10,6 @@ const Appetizer = (props) => {
     const {state , dispatch} = useContext(CardContext)
 
     const {id, name, price, discount} = props;
-    console.log(props.id)
     
     return (
         <div className={styles.container}>

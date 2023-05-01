@@ -3,7 +3,6 @@ import Products from '../../../components/template/Products';
 import Head from 'next/head';
 
 const index = ({data}) => {
-    console.log(data)
     return (
         <div>
         <Head>

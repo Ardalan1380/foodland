@@ -8,7 +8,6 @@ import { CardContext } from '../../context/CartContextProvider';
 
 const MainCourse = (props) => {
     const {id, name, price, discount} = props;
-    // console.log(props)
     const {state , dispatch} = useContext(CardContext)
 
     return (

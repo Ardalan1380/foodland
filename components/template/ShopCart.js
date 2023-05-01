@@ -9,7 +9,6 @@ const ShopCart = (props) => {
 
     const {dispatch} = useContext(CardContext);
 
-    console.log(props.data)
     const {name, price, quantity , id} = props.data
     return (
         <div className={styles.container}>

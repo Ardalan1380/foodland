@@ -3,7 +3,6 @@ import HomePage from '../../components/template/HomePage'
 
 
 export default function Home() {
-  console.log("first mount")
   return (
     <>
         <Head>

@@ -32,17 +32,14 @@ const Login = () => {
 
     useEffect(() =>{
         setErrors(validate(data , "login"))
-        console.log(errors)
     } , [data])
 
     const channgeHandler = e => {
-        // console.log(e.target.checked);
         if(e.target.name === "isAccepted") {
             setData({...data , [e.target.name] : e.target.checked})
         }else {
             setData({...data , [e.target.name] : e.target.value})
         }
-        console.log(data)
     }
 
 
@@ -53,7 +50,6 @@ const Login = () => {
     const submitHandler =  (e) =>  {
         e.preventDefault();
         if(!Object.keys(errors).length) {
-            // console.log(data);
             notify("ورود شما با موفقیت انجام شد" , "success");
             setTimeout(() => {
                 router.push("/")

@@ -5,7 +5,6 @@ import Link from 'next/link';
 
 
 const DetailsPage = (props) => {
-    console.log(props)
     const {name, introduction, price, id } = props
     return (
         <div className={styles.container}>
