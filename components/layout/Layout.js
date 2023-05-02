@@ -50,13 +50,13 @@ const Layout = ({children}) => {
             <footer className={styles.footer}>
                 <div className={styles.rightfooter}>
                     <ul>
-                        <Link href="/about-us">
+                        <Link href="/">
                         <li>درباره ما</li>
                         </Link>
-                        <Link href='FAQ'>
+                        <Link href='/'>
                         <li>سوالات متداول</li>
                         </Link>
-                        <Link href='privacy'>
+                        <Link href='/'>
                         <li>حریم خصوصی</li>
                         </Link>
                     </ul>
