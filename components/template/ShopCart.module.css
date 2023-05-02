@@ -52,17 +52,26 @@
 @media(max-width: 496px) {
     .container {
         flex-direction: column;
+        width: 120px;
+    }
+    
+    .productImage {
+        width: fit-content;
+        padding: 0 10px;
     }
 
-    .productImage {
-        width: 150px;
-    }
+    
     .data {
         text-align: center;
     }
 
+    .quantity {
+        font-size: 0.9rem;
+    }
+
     .data h3 {
         margin: 30px 0 20px;
+        padding-let: 2110px;
     }
 
     .data p {

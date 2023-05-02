@@ -145,9 +145,13 @@
 
 @media(max-width:496px) {
     .container {
-        padding: 5px;
+        width: 200px;
     }
     .buttonContainer button{
         font-size: 0.8rem;
+    }
+    .checkout {
+        padding: 9px;
+        font-size: 1.5rem;
     }
 }

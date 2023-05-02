@@ -46,7 +46,7 @@
 .details button {
     font-size: 1.25rem;
     font-weight: 600;
-    padding: 1px;
+    padding: 3px;
     background-color: #d39b00;
     border: none;
     color: #ffffff;
@@ -71,16 +71,18 @@
     background-color: #f7eac2;
 }
 
+
 @media (max-width:496px) {
     .container {
         width: 230px;
         /* padding: 10px; */
     }
-    .details button {
-        font-size: 1.06rem;
-    }
     .details span {
         margin-left: 20px;
+    }
+
+    .details button {
+        font-size: 1.3rem;
     }
 
 }

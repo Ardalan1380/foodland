@@ -41,5 +41,8 @@
     .container h3 {
         padding: 10px;
     }
+    .subContainer {
+        padding: 13px;
+    }
     
 }

@@ -12,7 +12,7 @@ const Others = (props) => {
 
     return (
         <div className={styles.container}>
-        <div>
+        <div className={styles.productImage}>
         <Image src={`/image/${id}.jpg`} alt={name} width={200} height={200} />
         </div>
         <div className={styles.food}>

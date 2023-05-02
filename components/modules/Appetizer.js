@@ -46,7 +46,7 @@ const Appetizer = (props) => {
                         quantityCount(state , props.id) > 0 && <span>{quantityCount(state , props.id)}</span>
                     }
                     {
-                        quantityCount (state , props.id) > 1 && <button onClick={() => dispatch({type:"DECREASE" , payload:props})}>
+                        quantityCount (state , props.id) > 1 && <button className={styles.minues} onClick={() => dispatch({type:"DECREASE" , payload:props})}>
                             -
                             </button>
                     }

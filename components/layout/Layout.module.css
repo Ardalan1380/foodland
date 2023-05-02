@@ -49,7 +49,8 @@
 }
 
 .footer {
-    background-color: rgb(151, 149, 149);
+    background-color: rgb(54, 54, 54);
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     height: 180px;
@@ -64,6 +65,11 @@
     padding-top: 28px;
     font-size: 1.2rem;
     font-weight: 700;
+    transition: 0.2s ease-in all;
+}
+
+.rightfooter li:hover {
+    color: rgb(34, 28, 28);
 }
 
 .copy {
@@ -81,19 +87,30 @@
     padding: 10px;
     justify-content: space-around;
 }
+/* 
+.open {
+    height: 200px;
+} */
+
 .open ul {
     display: flex;
     flex-direction: column;
     position: absolute;
     margin: -4px -2px;
     width: 100px;
-    height: 190px;
+    height: 20px;
     background-color: #bd7a15;
     color: inherit;
     color: #ffffff;
     border-radius: 10px;
     align-items: center;
     transition: 0.2s ease-in;
+    line-height: 20px;
+}
+
+.open li a:hover {
+    font-size: 1rem;
+    color: inherit;
 }
 
 @media(max-width : 1000px) {

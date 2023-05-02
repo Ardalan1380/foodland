@@ -75,7 +75,7 @@
 @media (max-width:496px) {
     .container {
         width: 230px;
-        /* padding: 10px; */
+        padding: auto 10px;
     }
     .details button {
         font-size: 1.06rem;
@@ -83,5 +83,7 @@
     .details span {
         margin-left: 20px;
     }
+
+    
 
 }

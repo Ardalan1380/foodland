@@ -5,7 +5,6 @@ import styles from "./Products.module.css"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-
 const Products = ({data}) => {
     const appetizerFood = data.filter(food => food.id <=4);
     const mainCourse  = data.slice(4,10)
