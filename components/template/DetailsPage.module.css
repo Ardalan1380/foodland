@@ -84,10 +84,16 @@
 
 @media(max-width:496px) {
     .details {
-        /* margin-right: 2px; */
+        width: auto;
     }
+
     .image img {
-        width: 220px;
-        /* margin-right: 10px; */
+        width: 210px;
+        height: 200px;  
     }
+
+    .text {
+        margin-top: 40px;
+    }
+
 }

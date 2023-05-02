@@ -20,7 +20,7 @@ export default index;
 
 export async function getStaticProps () {
 
-    const res = await fetch("https://api-foodland.vercel.app/data");
+    const res = await fetch("http://localhost:5000/data");
     const data = await res.json()
 
     return {
