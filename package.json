@@ -9,9 +9,7 @@
     "lint": "next lint",
     "serve-json": "json-server --watch db.json --port 5000"
   },
-  "engines": {
-    "node": "16.x"
-  },
+  
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
