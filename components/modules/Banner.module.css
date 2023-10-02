@@ -82,7 +82,7 @@
     }
 }
 
-@media (max-width: 496px) {
+@media (max-width: 550px) {
     .container {
         display: flex;
         padding: 10px;
@@ -101,7 +101,7 @@
     .left img{
         width: 140px;
         height: 200px;
-        margin-top: 90px;
-        margin-right: 20px;
+        /* margin-top: 90px;
+        margin-right: 20px; */
     }
 }
