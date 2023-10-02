@@ -31,17 +31,16 @@
     font-weight: 600;
 }
 
-@media(max-width: 900px)  {
-    .subContainer {
-        flex-wrap: wrap;
-    }
-}
 
-@media(max-width:496px) {
+@media(max-width:550px) {
     .container h3 {
         padding: 10px;
     }
     .subContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 50px;
+        place-content: center;
         padding: 13px;
     }
     
